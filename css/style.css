@@ -131,7 +131,7 @@ h5{
     padding: 1%;
     background-color: transparent;
     box-shadow: 2px 2px 8px 2px black;
-    margin: 50px 25px 50px 80px;
+    margin: 50px 20px 50px 70px;
 }
 .pesquisar{
     margin-top: 0;
@@ -175,9 +175,9 @@ h3{
 .seus_produtos{
     display: flex;
     padding-left: 15%;
-    padding-top: 50px;
+    margin-top: -7px;
     font-size: 30px;
-}   
+}
 #itens{
     display:inline-block;
     flex-direction: row;
@@ -185,7 +185,35 @@ h3{
     background-color: rgba(0, 0, 0, 0.448);
     border: solid 2px white;
     border-radius: 10px;
-    margin-top: 532px;
+    margin-top: 0px;
     width: 100%;
     padding-left: 30%;
+}
+.containerCarrinho{
+    height: 700px;  
+    overflow-y: scroll ;
+}
+.item_adicionado{
+    background-color: #2e245e7c;
+    border: solid 3px black;
+    height:265px;
+    width: 100%;
+    margin: 3px 0px;
+    box-shadow: 1px 1px 1px 1px rgb(186, 186, 186);
+    
+}
+.fotosDoCarrinho{
+    height:150px ;
+    width:260px ;
+}
+.botaoRemover{
+    height:25px ;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    margin-left: 35%;
+    text-decoration: underline;
+}
+.botaoRemover:active{
+    color: white;
 }

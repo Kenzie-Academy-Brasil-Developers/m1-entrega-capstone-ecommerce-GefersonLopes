@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porsche</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
 </head>
 <body>
     <nav>
@@ -24,7 +26,7 @@
     <main>
        <section class="divisao">
         <div class="Secao_carros">
-            <section class="suvs">
+<!--             <section class="suvs">
                 <div class="carro">
                     <div class="foto">
                         <img src="./img/1.jpg" alt="carro">
@@ -76,7 +78,7 @@
                         <h5>Porshe 911</h5>
                         <p class="descrição">A Porsche adicionou outro modelo à sua linha elétrica taycan, desta vez sem motor no eixo dianteiro.  
                         </p>
-                        <strong class="preco">R$700,000</strong>
+                        <strong class="preco">R$ 700.000,00</strong>
                         <br>
                         <button class="adicionar_carrinho">Adicionar ao carrinho</button>
                 </div>
@@ -90,7 +92,7 @@
                         <h5>Porshe Panamera</h5>
                         <p class="descrição">A Porsche adicionou outro modelo à sua linha elétrica taycan, desta vez sem motor no eixo dianteiro.  
                         </p>
-                        <strong class="preco">R$680.000</strong>
+                        <strong class="preco">R$ 680.000,00</strong>
                         <br>
                         <button class="adicionar_carrinho">Adicionar ao carrinho</button></div>
                 </div>
@@ -103,12 +105,12 @@
                         <h5>Porshe Taycan</h5>
                         <p class="descrição">A Porsche adicionou outro modelo à sua linha elétrica taycan, desta vez sem motor no eixo dianteiro.  
                         </p>
-                        <strong class="preco">R$ 1.200.000.00</strong>
+                        <strong class="preco">R$ 1.200.000,00</strong>
                         <br>
                         <button class="adicionar_carrinho">Adicionar ao carrinho</button>
                     </div>
                 </div>
-            </section>
+            </section> -->
         </div>
        </section>
        <div class="comprar">
@@ -121,7 +123,9 @@
             <div class="escolhidos"></div>
         </div>
         <div class="itens">
-            <p class="seus_produtos">Seu carrinho está vazio!</p>
+            <div class="containerCarrinho">
+                <p class="seus_produtos">Seu carrinho está vazio!</p>
+            </div>
             <div id="itens">
                 <p class="quatidade">Quantidade</p>
                 <p class="quantidade_de_itens">0</p>
